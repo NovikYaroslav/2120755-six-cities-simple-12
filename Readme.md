@@ -1,49 +1,67 @@
-# Личный проект «Шесть городов (простой)»
+# "6 Cities"
 
-- Студент: [Ярослав Новик](https://up.htmlacademy.ru/react/12/user/2120755).
-- Наставник: [Артём Рудов](https://htmlacademy.ru/profile/artrudov).
+Repository for applications of the `6 cities` project, includes the front-end part of application.
 
----
+Frontend:
 
-_Не удаляйте и не изменяйте папки и файлы:_
-_`.editorconfig`, `.gitattributes`, `.gitignore`._
+## Airbnb like Application.
 
----
+The site allows you to view rental offers in 6 available cities, leave comments and rate..
+The site consists of 3 main pages:
 
-### Памятка
+1. Login
+2. Main (Page with all offers according to choosen city).
+3. Room (Page with details of choosen offer).
+   The site is adapted for use with Screen Reader.
 
-#### 1. Зарегистрируйтесь на Гитхабе
+### Used technologies:
 
-Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
+TYPESCRIPT/REACT/REDUX/JEST
 
-#### 2. Создайте форк
+1. Work with API
+2. Registration, Authentication, Identification (JWT Token)
+3. Leaflet
+4. Axios
+5. React (useState, useEffect, useRef, useCallback)
+6. ReactRouter v.6.4.0
+7. ReduxToolKit
+8. Craco
+9. Tostify
+10. Classnames
 
-Откройте репозиторий и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
+### _What should be finished _:
 
-<img width="769" alt="Press 'Fork'" src="https://cloud.githubusercontent.com/assets/259739/20264045/a1ddbf40-aa7a-11e6-9a1a-724a1c0123c8.png">
+1. Jest test for components and async functions.
 
-Получится вот так:
+# "6 городов"
 
-<img width="769" alt="Forked" src="https://cloud.githubusercontent.com/assets/259739/20264122/f63219a6-aa7a-11e6-945a-89818fc7c014.png">
+Репозиторий для приложения проекта `6 городов`, включающий фронтенд часть приложения.
 
-#### 3. Клонируйте репозиторий на свой компьютер
+Frontend
 
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Также обратите внимание, что клонировать репозиторий нужно через SSH, а не через HTTPS. Нажмите зелёную кнопку в правой части экрана, чтобы скопировать SSH-адрес вашего репозитория:
+## Приложение на подобие Airbnb.
 
-<img width="769" alt="SSH" src="https://cloud.githubusercontent.com/assets/259739/20264180/42704126-aa7b-11e6-9ab4-73372b812a53.png">
+Сайт позволяет просматривать предложения по аренде в 6 доступных городах, оставлять комментарии и оценивать.
+Сайт состоит из 3х главных секций:
 
-Клонировать репозиторий можно так:
+1. Login
+2. Main (Страница со всеми предожениями по выбранному городу).
+3. Room (Страница с деталями по выбранному предложению).
+   Этот сайт адаптирован для работы со Скрин Ридерами.
 
-```
-git clone SSH-адрес_вашего_форка
-```
+### Использованные технологии:
 
-Команда клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
+1. Work with API
+2. Registration, Authentication, Identification (JWT Token)
+3. Leaflet
+4. Axios
+5. React (useState, useEffect, useRef, useCallback)
+6. ReactRouter v.6.4.0
+7. ReduxToolKit
+8. Craco
+9. Tostify
+10. Classnames
 
-#### 4. Начинайте обучение!
+### _Что следует доделать_:
 
----
-
-<a href="https://htmlacademy.ru/intensive/react"><img align="left" width="50" height="50" title="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/react/logo-for-github.png"></a>
-
-Репозиторий создан для обучения на профессиональном онлайн‑курсе «[React. Разработка сложных клиентских приложений](https://htmlacademy.ru/intensive/react)» от [HTML Academy](https://htmlacademy.ru).
+3. Jest тесты для компонентов и асинхронных функций
