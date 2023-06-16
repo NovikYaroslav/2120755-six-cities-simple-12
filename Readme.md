@@ -1,5 +1,7 @@
 # "6 Cities"
 
+Link to preview: https://2120755-six-cities-simple-12.vercel.app/
+
 Repository for applications of the `6 cities` project, includes the front-end part of application.
 
 Frontend:
